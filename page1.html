@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File 01 - The Lazer Files</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: "Courier New", monospace;
+    background:black;
+    color:#00ffff;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    color:#ff00ff;
+    text-shadow:0 0 15px #ff00ff;
+}
+
+/* Navigation */
+
+nav{
+    text-align:center;
+    padding:10px;
+    border-top:1px solid #00ffff;
+    border-bottom:1px solid #00ffff;
+}
+
+nav a{
+    color:#00ffff;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#ff00ff;
+}
+
+/* Video Grid */
+
+.video-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:40px;
+    padding:40px;
+}
+
+.video-box{
+    width:420px;
+    border:2px solid #00ffff;
+    padding:10px;
+    box-shadow:0 0 20px #00ffff;
+}
+
+.video-box video{
+    width:100%;
+}
+
+.video-title{
+    text-align:center;
+    margin-top:10px;
+    color:#ff00ff;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>FILE 01</h1>
+</header>
+
+<nav>
+<a href="index.html">HOME</a>
+<a href="page1.html">FILE 01</a>
+<a href="page2.html">FILE 02</a>
+<a href="page3.html">FILE 03</a>
+</nav>
+
+<div class="video-container">
+
+<div class="video-box">
+<video controls>
+<source src="video1.mp4" type="video/mp4">
+</video>
+<div class="video-title">VIDEO 01</div>
+</div>
+
+<div class="video-box">
+<video controls>
+<source src="video2.mp4" type="video/mp4">
+</video>
+<div class="video-title">VIDEO 02</div>
+</div>
+
+<div class="video-box">
+<video controls>
+<source src="video3.mp4" type="video/mp4">
+</video>
+<div class="video-title">VIDEO 03</div>
+</div>
+
+</div>
+
+</body>
+</html
